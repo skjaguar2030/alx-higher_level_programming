@@ -8,9 +8,9 @@
 size_t list_len(listint_t *h)
 {
     size_t nodes = 0;
-
-    if (h == NULL)
+    if (h == NULL){
         return (0);
+        }
     while (h != NULL)
     {
         nodes++;
